@@ -1,13 +1,12 @@
 [WIP] Lesson On Implement Parallax with React
 
-This lesson was built with the Create React App boilerplate. To get started, run the following:
+This lesson was built with the Create React App boilerplate. To get started, run the following:  
 `npm install`  
 `npm start`  
 
 ### Parallax with React
 
-Seems like since when we implement Parallax we're dealing with re-rendering the page in weird, unique ways every time an event fires on the DOM. Since the event we care about is usually scroll or a mouse movement, thats a lot of events to listen for and re-render. Fast DOM manipulation and re-rendering brings to mind our favorite friend, React.   
-
+When we implement Parallax we're essentially re-rendering elements in weird ways every time an event fires on the DOM. Since the event we care about is usually scroll or mouse movement, we have a lot of events to listen for and re-render. Fast DOM manipulation and re-rendering brings to mind our favorite friend, React.   
 
 #### NPM To The Rescue
 Shockingly (not shockingly) there is a module for this.  
